@@ -40,11 +40,11 @@ int main() {
 
         printf("O Estado digitado foi: %s \n", &estado);
         printf("O código da carta digitado foi: %s \n", &CodigoCarta);
-        printf("O nome da cidade digitado foi: %s \n", &NomeCidade);
-        printf("A população da cidade digitada foi: %d \n", populacao);
-        printf("A área da cidade digitada foi: %f \n", AREAKM2);
-        printf("O PIB digitado foi: %f \n", PIB);
-        printf("O número de pontos turísticos digitado foi: %d \n", pontosturisticos);
+        printf("O nome da cidade digitada é: %s \n", &NomeCidade);
+        printf("A populaçãpo de %s é: %d \n", &NomeCidade, populacao);
+        printf("A área da %s é: % .2f \n", &NomeCidade,  AREAKM2);
+        printf("O PIB de %s é: % .2f \n", &NomeCidade, PIB);
+        printf("O número de pontos turísticos digitado é: %d \n \n", pontosturisticos);
 
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
